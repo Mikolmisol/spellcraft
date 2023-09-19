@@ -1,0 +1,33 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_c:lead_nuggets": {
+      "conditions": {
+        "items": [
+          {
+            "tag": "c:lead_nuggets"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "spellcraft:lead_ingot_from_common_lead_nuggets"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_c:lead_nuggets",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "spellcraft:lead_ingot_from_common_lead_nuggets"
+    ]
+  },
+  "sends_telemetry_event": false
+}

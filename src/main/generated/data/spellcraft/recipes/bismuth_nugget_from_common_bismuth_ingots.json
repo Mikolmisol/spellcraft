@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "c:bismuth_ingots"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "spellcraft:bismuth_nugget"
+  }
+}

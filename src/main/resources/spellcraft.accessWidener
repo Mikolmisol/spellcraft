@@ -1,0 +1,31 @@
+accessWidener v1 named
+accessible field net/minecraft/world/entity/Entity level Lnet/minecraft/world/level/Level;
+accessible field net/minecraft/client/model/VillagerModel root Lnet/minecraft/client/model/geom/ModelPart;
+accessible field net/minecraft/client/model/VillagerModel head Lnet/minecraft/client/model/geom/ModelPart;
+accessible field net/minecraft/client/model/VillagerModel hat Lnet/minecraft/client/model/geom/ModelPart;
+accessible field net/minecraft/client/model/VillagerModel hatRim Lnet/minecraft/client/model/geom/ModelPart;
+accessible field net/minecraft/client/model/VillagerModel rightLeg Lnet/minecraft/client/model/geom/ModelPart;
+accessible field net/minecraft/client/model/VillagerModel leftLeg Lnet/minecraft/client/model/geom/ModelPart;
+accessible field net/minecraft/client/model/geom/builders/PartDefinition children Ljava/util/Map;
+accessible field net/minecraft/world/damagesource/DamageSource causingEntity Lnet/minecraft/world/entity/Entity;
+accessible field net/minecraft/client/Camera position Lnet/minecraft/world/phys/Vec3;
+accessible field net/minecraft/client/Camera forwards Lorg/joml/Vector3f;
+accessible field net/minecraft/client/Camera left Lorg/joml/Vector3f;
+
+mutable field net/minecraft/client/Camera position Lnet/minecraft/world/phys/Vec3;
+mutable field net/minecraft/client/Camera forwards Lorg/joml/Vector3f;
+mutable field net/minecraft/client/Camera left Lorg/joml/Vector3f;
+
+accessible method net/minecraft/core/registries/BuiltInRegistries registerSimple (Lnet/minecraft/resources/ResourceKey;Lnet/minecraft/core/registries/BuiltInRegistries$RegistryBootstrap;)Lnet/minecraft/core/Registry;
+accessible method net/minecraft/world/inventory/AbstractContainerMenu addSlot (Lnet/minecraft/world/inventory/Slot;)Lnet/minecraft/world/inventory/Slot;
+accessible method net/minecraft/client/gui/screens/MenuScreens register (Lnet/minecraft/world/inventory/MenuType;Lnet/minecraft/client/gui/screens/MenuScreens$ScreenConstructor;)V
+accessible method net/minecraft/client/Camera move (DDD)V
+accessible method net/minecraft/world/level/material/Fluid animateTick (Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/material/FluidState;Lnet/minecraft/util/RandomSource;)V
+
+extendable method net/minecraft/world/entity/Entity getBoundingBox ()Lnet/minecraft/world/phys/AABB;
+
+accessible class net/minecraft/core/registries/BuiltInRegistries$RegistryBootstrap
+accessible class net/minecraft/client/renderer/RenderStateShard$TextureStateShard
+accessible class net/minecraft/client/renderer/RenderType$CompositeState
+accessible class net/minecraft/client/renderer/RenderStateShard$OffsetTexturingStateShard
+accessible class net/minecraft/client/renderer/RenderType$OutlineProperty

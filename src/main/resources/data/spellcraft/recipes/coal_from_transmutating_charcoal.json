@@ -1,0 +1,20 @@
+{
+  "type": "spellcraft:transmutation",
+  "ingredients": [
+    {
+      "type": "spellcraft:item",
+      "variants": [
+        {
+          "item": "minecraft:charcoal"
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "type": "spellcraft:item",
+      "item": "minecraft:coal"
+    }
+  ],
+  "manaCost": 10.0
+}

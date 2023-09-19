@@ -1,0 +1,33 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_c:silver_ingots": {
+      "conditions": {
+        "items": [
+          {
+            "tag": "c:silver_ingots"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "spellcraft:silver_plate_from_commonsilver_ingots"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_c:silver_ingots",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "spellcraft:silver_plate_from_commonsilver_ingots"
+    ]
+  },
+  "sends_telemetry_event": false
+}

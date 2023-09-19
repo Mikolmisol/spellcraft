@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "id": "spellcraft",
+  "version": "1.0.0",
+  "name": "Spellcraft",
+  "description": "Adds spells, magical creatures, and magic-themed industrialisation and automation to Minecraft!",
+  "authors": [
+    "Mikolmisol"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+  "license": "MIT",
+  "icon": "assets/spellcraft/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      {
+        "value": "mikolmisol.spellcraft.Spellcraft"
+      }
+    ],
+    "client": [
+      {
+        "value": "mikolmisol.spellcraft.SpellcraftClient"
+      }
+    ],
+    "fabric-datagen": [
+      {
+        "value": "mikolmisol.spellcraft.data.SpellcraftDataGenerator"
+      }
+    ]
+  },
+  "mixins": [
+    "spellcraft.mixins.json",
+    {
+      "config": "spellcraft.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.21",
+    "minecraft": "~1.20.1",
+    "java": ">=17",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "another-mod": "*"
+  },
+  "accessWidener": "spellcraft.accesswidener"
+}

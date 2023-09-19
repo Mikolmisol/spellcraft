@@ -1,0 +1,6 @@
+// 1.20.1	2023-09-19T16:15:29.876357	Spellcraft/Tags for minecraft:damage_type
+a050e29abfd1b7412c4fe0101519864d2c67c646 data\minecraft\tags\damage_type\is_fire.json
+cd1a3cd74e4f11a7e58458e9dac8bfda67a3dad6 data\minecraft\tags\damage_type\bypasses_shield.json
+fdbf3cd97c4554770fc0aaa6e141b6537f682416 data\minecraft\tags\damage_type\is_freezing.json
+145361f36b8c2e804e208d14695a69b32f855d70 data\minecraft\tags\damage_type\is_lightning.json
+cd1a3cd74e4f11a7e58458e9dac8bfda67a3dad6 data\minecraft\tags\damage_type\bypasses_armor.json

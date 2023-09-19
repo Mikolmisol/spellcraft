@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "c:bismuth_ingots"
+    },
+    {
+      "tag": "c:bismuth_ingots"
+    },
+    {
+      "item": "spellcraft:forge_hammer"
+    }
+  ],
+  "result": {
+    "item": "spellcraft:bismuth_plate"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "c:silver_ingots"
+    },
+    {
+      "tag": "c:silver_ingots"
+    },
+    {
+      "item": "spellcraft:forge_hammer"
+    }
+  ],
+  "result": {
+    "item": "spellcraft:silver_plate"
+  }
+}

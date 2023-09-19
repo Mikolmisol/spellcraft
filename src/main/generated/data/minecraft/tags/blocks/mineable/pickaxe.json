@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    "spellcraft:arcane_projector",
+    "spellcraft:arcane_relay",
+    "spellcraft:arcane_crafting_focus",
+    "spellcraft:arcane_barrier",
+    "spellcraft:arcane_lantern",
+    "spellcraft:arcane_cannon",
+    "spellcraft:arcane_coil",
+    "spellcraft:arcane_brazier",
+    "spellcraft:arcane_spawner",
+    "spellcraft:mana_crystal",
+    "spellcraft:mana_crystal_ore",
+    "spellcraft:deepslate_mana_crystal_ore"
+  ]
+}

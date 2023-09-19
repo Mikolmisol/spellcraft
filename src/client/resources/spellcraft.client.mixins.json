@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "package": "mikolmisol.spellcraft.mixin.client",
+  "compatibilityLevel": "JAVA_17",
+  "client": [
+    "SpellcraftEntityRenderDispatcherMixin",
+    "SpellcraftGameRendererMixin",
+    "SpellcraftGuiMixin",
+    "SpellcraftHumanoidModelMixin",
+    "SpellcraftLevelRendererMixin",
+    "SpellcraftMouseHandlerMixin",
+    "SpellcraftWitchModelMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "c:copper_ingots"
+    },
+    {
+      "tag": "c:copper_ingots"
+    },
+    {
+      "item": "spellcraft:forge_hammer"
+    }
+  ],
+  "result": {
+    "item": "spellcraft:copper_plate"
+  }
+}

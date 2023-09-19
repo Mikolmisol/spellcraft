@@ -1,0 +1,5 @@
+// 1.20.1	2023-09-19T16:15:29.8773655	Spellcraft/Tags for minecraft:block
+7580abf39f3b078d77349d123ec012e8788dd223 data\minecraft\tags\blocks\needs_iron_tool.json
+fb114b1229e5448c2c24fee47039e894a8e4535f data\minecraft\tags\blocks\mineable\pickaxe.json
+7640823b3574ed47ea6f0c36eee90c1f7265714c data\minecraft\tags\blocks\mineable\axe.json
+bbd2fae7d71377c6104231e70478adfa8aa3e423 data\minecraft\tags\blocks\needs_stone_tool.json
